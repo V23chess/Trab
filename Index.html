@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Anfíbios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mundo dos Anfíbios</h1>
+            <p>Explorando a fascinante vida entre a água e a terra</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <button class="nav-btn active" data-section="introducao">Introdução</button>
+            <button class="nav-btn" data-section="caracteristicas">Características</button>
+            <button class="nav-btn" data-section="curiosidades">Curiosidades</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Seção: Introdução -->
+        <section id="introducao" class="section active">
+            <div class="space-y-6">
+                <h2>Introdução aos Anfíbios</h2>
+                <p>
+                    Os anfíbios são animais vertebrados que representam uma transição evolutiva crucial 
+                    entre os animais aquáticos e terrestres. Seu nome deriva do grego "amphi" (duplo) e 
+                    "bios" (vida), referindo-se à sua capacidade de viver tanto na água quanto na terra.
+                </p>
+                
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Hipóteses de Desenvolvimento</h3>
+                        <p>A evolução dos anfíbios a partir de peixes sarcopterígios ocorreu durante 
+                        o período Devoniano, há aproximadamente 370 milhões de anos. As principais 
+                        adaptações incluíram o desenvolvimento de pulmões e membros para locomoção terrestre.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Objetivo Geral</h3>
+                        <p>Compreender a biologia, ecologia e importância dos anfíbios nos ecossistemas, 
+                        além de destacar suas adaptações únicas que permitiram a conquista do ambiente terrestre.</p>
+                    </div>
+                </div>
+
+                <div class="card mt-6">
+                    <h3>Metodologia</h3>
+                    <p>Este estudo baseia-se em pesquisa bibliográfica de fontes científicas consolidadas, 
+                    observação de espécimes em habitat natural e cativeiro, e análise comparativa das 
+                    características morfológicas e fisiológicas das diferentes ordens de anfíbios.</p>
+                </div>
+
+                <!-- Seção especial: Div com IMG e Button -->
+                <div class="img-section">
+                    <h3>Imagem Illustrativa</h3>
+                    <div class="grid-2">
+                        <div>
+                            <img 
+                                src="https://via.placeholder.com/400x300/4A90E2/FFFFFF?text=Transi%C3%A7%C3%A3o+Evolutiva+Peixe-Anf%C3%ADbio" 
+                                alt="Transição evolutiva de peixe para anfíbio mostrando mudanças anatômicas importantes"
+                            >
+                        </div>
+                        <div class="flex-center">
+                            <p>Explore mais sobre as características específicas dos anfíbios navegando pelas seções abaixo.</p>
+                            <button class="btn-primary" onclick="navigateToSection('caracteristicas')">Ver Características</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Características -->
+        <section id="caracteristicas" class="section">
+            <div class="space-y-6">
+                <h2>Características dos Anfíbios</h2>
+                
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Onde Vivem</h3>
+                        <p>Os anfíbios habitam ambientes úmidos próximos a corpos d'água como lagos, 
+                        rios e brejos. Algumas espécies adaptaram-se a ambientes mais secos, mas 
+                        dependem da água para reprodução.</p>
+                        <img src="https://via.placeholder.com/300x200/7ED321/FFFFFF?text=Habitat+Anf%C3%ADbios" alt="Habitat natural de anfíbios mostrando lago com vegetação aquática" class="img-card">
+                    </div>
+
+                    <div class="card">
+                        <h3>Respiração</h3>
+                        <p>Os anfíbios possuem respiração cutânea (pele), branquial (larvas) e pulmonar (adultos). 
+                        A pele úmida e vascularizada permite trocas gasosas, sendo crucial para espécies que 
+                        dependem dessa respiração complementar.</p>
+                        <img src="https://via.placeholder.com/300x200/FF6B6B/FFFFFF?text=Respira%C3%A7%C3%A3o+Anf%C3%ADbios" alt="Sistema respiratório de anfíbios mostrando pele, pulmões e brânquias" class="img-card">
+                    </div>
+
+                    <div class="card">
+                        <h3>Reprodução</h3>
+                        <p>A reprodução é geralmente ovípara com fecundação externa na água. 
+                        O desenvolvimento inclui metamorfose completa: ovo → larva aquática (girino) → adulto terrestre.</p>
+                        <img src="https://via.placeholder.com/300x200/4ECDC4/FFFFFF?text=Ciclo+de+Vida" alt="Ciclo de vida dos anfíbios mostrando ovo, girino e adulto" class="img-card">
+                    </div>
+
+                    <div class="card">
+                        <h3>Temperatura Corporal</h3>
+                        <p>São animais ectotérmicos (de "sangue frio"), ou seja, sua temperatura corporal 
+                        varia com o ambiente. Regulam sua temperatura através do comportamento 
+                        (exposição ao sol ou sombra).</p>
+                        <img src="https://via.placeholder.com/300x200/F7DC6F/FFFFFF?text=Temperatura+Corporal" alt="Rã regulando temperatura corporal através de comportamento termorregulador" class="img-card">
+                    </div>
+
+                    <div class="card">
+                        <h3>Alimentação</h3>
+                        <p>As larvas são geralmente herbívoras ou detritívoras, enquanto os adultos 
+                        são carnívoros, alimentando-se de insetos, vermes, pequenos crustáceos e 
+                        até pequenos vertebrados.</p>
+                        <img src="https://via.placeholder.com/300x200/45B7D1/FFFFFF?text=Alimenta%C3%A7%C3%A3o" alt="Rã capturando inseto com língua demonstrando comportamento alimentar" class="img-card">
+                    </div>
+
+                    <div class="card">
+                        <h3>Pele e Cobertura Corporal</h3>
+                        <p>A pele é lisa, úmida, glandular e sem escamas. Contém glândulas mucosas 
+                        (para umidade) e granulosas (veneno). A coloração varia e pode servir para 
+                        camuflagem ou advertência.</p>
+                        <img src="https://via.placeholder.com/300x200/96CEB4/FFFFFF?text=Pele+Anf%C3%ADbio" alt="Close-up da pele de anfíbio mostrando textura úmida e glândulas" class="img-card">
+                    </div>
+                </div>
+
+                <!-- Exemplo de Rã -->
+                <div class="img-section">
+                    <h3>Exemplo: Rã Verde</h3>
+                    <div class="grid-2">
+                        <div>
+                            <img 
+                                src="https://via.placeholder.com/400x300/2ECC71/FFFFFF?text=R%C3%A3+Verde" 
+                                alt="Rã verde exemplar mostrando anatomia detalhada e coloração característica"
+                            >
+                        </div>
+                        <div class="flex-center">
+                            <p>A rã verde (Lithobates clamitans) é um exemplo clássico de anuro. Possui 
+                            membranas interdigitais, pele lisa e úmida, e é excelente saltadora.</p>
+                            <button class="btn-primary" onclick="navigateToSection('curiosidades')">Descobrir Curiosidades</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Curiosidades -->
+        <section id="curiosidades" class="section">
+            <div class="space-y-6">
+                <h2>Curiosidades sobre Anfíbios</h2>
+                
+                <div class="card mb-6">
+                    <h3>Fatos Interessantes</h3>
+                    <ul>
+                        <li>Algumas espécies de sapos podem congelar durante o inverno e "ressuscitar" na primavera</li>
+                        <li>O sapo mais venenoso do mundo é o Phyllobates terribilis, com veneno suficiente para matar 10 adultos</li>
+                        <li>Algumas rãs podem saltar até 20 vezes o comprimento do próprio corpo</li>
+                        <li>Os anfíbios são bioindicadores da saúde ambiental</li>
+                        <li>A maior salamandra do mundo (Andrias davidianus) pode atingir 1,8m de comprimento</li>
+                    </ul>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Adaptações Notáveis</h3>
+                        <p>Os anfíbios desenvolveram adaptações incríveis como:</p>
+                        <ul class="mt-2">
+                            <li>Pele permeável para respiração cutânea</li>
+                            <li>Ouvidos especializados para detectar vibrações</li>
+                            <li>Línguas protráteis para capturar presas</li>
+                            <li>Mimetismo e coloração de advertência</li>
+                        </ul>
+                        <img src="https://via.placeholder.com/300x200/9B59B6/FFFFFF?text=Adapta%C3%A7%C3%B5es" alt="Adaptações dos anfíbios incluindo extensão de língua e camuflagem" class="img-card">
+                    </div>
+
+                    <div class="card">
+                        <h3>Importância Ecológica</h3>
+                        <p>Os anfíbios desempenham papéis cruciais nos ecossistemas:</p>
+                        <ul class="mt-2">
+                            <li>Controlam populações de insetos</li>
+                            <li>Servem como alimento para outros animais</li>
+                            <li>Indicam a qualidade ambiental</li>
+                            <li>Participam de ciclos de nutrientes</li>
+                        </ul>
+                        <img src="https://via.placeholder.com/300x200/E74C3C/FFFFFF?text=Import%C3%A2ncia+Ecol%C3%B3gica" alt="Importância ecológica dos anfíbios na cadeia alimentar" class="img-card">
+                    </div>
+                </div>
+
+                <!-- Seção de Conservação com IMG e Button -->
+                <div class="img-section">
+                    <h3>Conservação</h3>
+                    <div class="grid-2">
+                        <div>
+                            <img 
+                                src="https://via.placeholder.com/400x300/3498DB/FFFFFF?text=Conserva%C3%A7%C3%A3o+Anf%C3%ADbios" 
+                                alt="Esforços de conservação de anfíbios e proteção de habitat"
+                            >
+                        </div>
+                        <div class="flex-center">
+                            <p>Muitas espécies de anfíbios enfrentam ameaças como perda de habitat, 
+                            mudanças climáticas e doenças. Sua conservação é vital para a saúde dos ecossistemas.</p>
+                            <button class="btn-primary" onclick="navigateToSection('introducao')">Voltar ao Início</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Site Educativo sobre Anfíbios</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                      </html>
+  
